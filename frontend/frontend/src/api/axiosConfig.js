@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://127.0.0.1:8000/api/',
+    // 👇 Replace this string with YOUR actual Render URL!
+    baseURL: 'https://hospital-system-app.onrender.com/api/', 
     headers: {
         'Content-Type': 'application/json',
     }
